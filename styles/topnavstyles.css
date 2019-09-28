@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*
+.topnav{
+    background-color:#fff;
+    width: 100%;
+    height: 20px;
+    position: absolute;
+}
+ THIS IS NOT NEEDED IF THE BACKGROUND IS WHITE. 
+*/
+
+#login, #signup{
+    margin: 5px;
+    margin-top: 15px;
+    margin-right: 35px; /* Will fix this */
+    margin-left: -15px;
+    float: right;
+}
+

@@ -1,0 +1,89 @@
+/* Possibly something like this if we don't want white everywhere? 
+body{
+    background-image: url('../imgs/pencil.jpg');
+}
+
+*/
+
+
+.signin{
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 5px;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 50px;
+    transform: translate(-50%, -50%);
+    
+    background-color: #1E1E24;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h2{
+    color: #fff;
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+#username, #password{
+    display: block;
+    width: 320px;
+    height: 50px;
+
+    outline: none;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 5px;
+
+    background: rgba(0,0,0,0.3);
+    color: #fff;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    
+
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+#password{
+    -webkit-text-security: disc;
+}
+
+.signin p{
+    text-align: center;
+    color: #fff; 
+}
+.signin p a{
+    color: #0E7777;
+    text-decoration: none;
+}
+.signin p a:hover{
+    text-decoration: underline;
+}
+
+#signinBtn{
+    width: 333px;
+    height: 50px;
+    margin: 0;
+    margin-bottom: 20px;
+
+    font-size: 18px;
+    border-radius: 5px;
+
+    background-color: #0E7777;
+    border: 1px solid #0E7777;
+    color: #fff;
+
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+    cursor: pointer;
+
+}
+
+.signin #signinForm input:focus{
+    border-color: #0E7777;
+}

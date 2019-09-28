@@ -1,0 +1,225 @@
+.dashboard form{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.dashboard h1{
+    text-align: center;
+    padding-top: 24px;
+    margin-bottom: 20px;
+}
+
+.dashboard p{
+    text-align: center;
+}
+.dashboard input{
+    box-sizing: border-box; 
+    width: 99%;
+    margin: 8px 0;
+    padding: 10px 0px;
+    padding-left: 5px;
+
+    background: rgba(0,0,0,0.3);
+
+    border: 1px solid rgba(0, 0, 0, 0.486);
+    border-radius: 4px;
+
+    color: #fff;
+}
+
+    .dashboard input[type="submit"]{
+        cursor: pointer;
+    }
+
+    .dashboard input:focus{
+        outline-color: #0E7777;
+    }
+
+    .dashboard input::placeholder{
+        color: grey;
+        padding: 5px;
+    }
+
+.dashboard select{
+    width: 84%;
+    height: 50px;
+    margin: 8px 0;
+    padding: 10px 0px;
+    padding-left: 5px;
+    outline: none;
+    
+    background: rgba(0,0,0,0.3);
+
+    border: 1px solid rgba(0, 0, 0, 0.486);
+    border-radius: 4px;
+
+    color: grey;
+}
+
+
+    .dashboard select option{
+        color: #fff;
+        padding: 2px;
+        background-color: #1E1E24;
+        border-color: #0E7777;
+    }
+
+    .dashboard select:focus{
+        border-color: #0E7777;
+    }
+
+
+
+
+#labels{
+    text-align: center;
+    
+}
+
+#labels label{
+    display: inline-block;
+    margin: 20px;
+}
+
+input[type="radio"]{
+    float: left;
+}
+
+form .halfSize{
+    width: 40%;    
+    margin: 0.5%
+}
+
+
+form .seventyPercent{
+    width: 60%;
+    margin-right: 1%;
+}
+
+
+form .twentyPercent{
+    width: 20%;
+}
+
+
+#submit{
+    background-color: #0E7777;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 82%;
+}
+
+#btns{
+    text-align: center;
+    position: relative;
+}
+
+
+.formBtns{
+    width: 30px;
+    margin: 5px 15px;
+    position: relative;
+
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+
+    cursor: pointer;
+}
+
+
+.formBtns:hover{
+    color: #0E7777;
+}
+
+.buttonContainer{
+    text-align: center;
+}
+
+
+#studentBtn, #tutorBtn{
+
+    margin: 5px 10px;
+}
+
+
+
+.addSelect{
+    background-color: #0E7777;
+    color: white;
+
+    border: 1px solid rgb(30, 30, 36);
+    border-radius: 3px;
+
+
+    padding: 12px;
+    padding-left: 14px;
+    padding-right: 14px;
+    width: 20px;
+
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+
+    transition: all 0.7s ease;
+    cursor: pointer;
+
+
+    
+}
+
+.addSelect:hover{
+    color: #0E7777;
+    background-color: #fff;
+    cursor: pointer;
+    border-color: #0E7777;
+    transform: scale(1.1);
+}
+
+.dashboard span{
+    text-align: center;
+}
+.dashboard span input[type=checkbox]{
+    line-height: 40px;
+    width: 5%;
+}
+
+#visa, #passport{
+    display: none;
+}
+
+form{
+    text-align: center;
+}
+
+
+form .fullSize{
+    width: 82%;
+
+}
+
+
+
+.innerContainer{
+    width: 100%;
+    margin: 0 auto;
+
+}
+.innerContainer select{
+    width: 68%;
+}
+
+.innerContainer span{
+    display:  inline-block;
+
+}
+
+
+@media only screen and (max-width: 845px){
+    
+    .dashboard form input{
+        width: 80%;
+    }
+    .innerContainer select{
+        width: 82%;
+    }
+}

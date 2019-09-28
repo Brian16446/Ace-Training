@@ -1,0 +1,18 @@
+TCP/IP Stands for?
+    A. Total Control Protocol / Internet Packets
+    B. Transform Counting Packets / Into Pictures
+    C. Transmission Control Protocol / Internet Protocol
+    D. Traffic Co-ordination Policies / Internet Procedures
+C
+CSMA Stands for Carrier Sense Multiple Access?
+    A. True
+    B. False
+
+
+A
+The first(lowest) level of the OSI 7 Layer model is?
+    A. Application
+    B. Session
+    C. Physical
+    D. Network
+C

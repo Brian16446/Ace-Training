@@ -1,0 +1,4 @@
+'fred', 'walter', '49 bourbon street', 'ls4 4bn', '13/02/2019', '06/02/1990', 29, 'M', 'fredw@sky.com', 'pass123', 0, 0, 0, 1, 1, 'student'
+'jane', 'glock', '12 cake road', 'cs2 9ab', '13/02/2019', '04/12/2000', 19, 'F', 'jglock@aol.com', 'gdawg', 0, 0, 0, 1, 1, 'student'
+'blane', 'dock', '11 make road', 'as2 9aa', '13/02/2019', '03/11/1980', 39, 'F', 'bdock@gmail.com', 'bdawg', 0, 0, 0, 1, 1, 'student'
+'elaine', 'sock', '15 bake road', 'bb2 9cd', '13/02/2019', '04/12/2001', 18, 'F', 'esock@live.com', 'edawg', 0, 0, 0, 1, 1, 'student'

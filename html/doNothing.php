@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../styles/otherpages.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>FORM SUBMITTED</h1>
+    <?php
+        print_r(sizeof($_POST["course"]));
+        // foreach ($_POST as $key => $value) {
+        //     echo "Field ".htmlspecialchars($key)." is ".htmlspecialchars($value)."<br>";
+        // }
+    ?>
+    <p>The data entered has been validated. Thank you for submitting the form</p>
+    <p>Click <a href="forms.html">HERE</a> to go back to the form</p>
+</body>
+</html>

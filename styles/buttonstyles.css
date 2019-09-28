@@ -1,0 +1,36 @@
+button {
+    background: linear-gradient(to right, #fff 50%, #0E7777 50%);
+    background-size: 260% 100%;
+    background-position: right bottom;
+    color: white;
+
+    border: 1px solid rgb(30, 30, 36);
+    border-radius: 3px;
+
+
+    padding: 5px;
+
+
+    height: 50px;
+    width: 80px;
+
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 20px;
+
+    transition: all 0.7s ease;
+    cursor: pointer;
+}
+
+button:hover{
+    color: #0E7777;
+    
+    cursor: pointer;
+    border-color: #0E7777;
+
+    background-position: left bottom;
+
+
+
+    transform: scale(1.1);
+}
